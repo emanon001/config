@@ -1,0 +1,27 @@
+[alias]
+  b = branch
+  s = status
+  l = log
+  c = commit
+  co = checkout
+
+[core]
+  pager = delta
+
+[grep]
+  lineNumber = true
+
+[interactive]
+  diffFilter = delta --color-only
+
+[url "git@github.com:"]
+  insteadOf = https://github.com/
+
+[user]
+  name = emanon001
+  email = emanon001@gmail.com
+[push]
+  default = current
+
+[rebase]
+  autosquash = true
