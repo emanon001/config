@@ -8,7 +8,6 @@ spoon.SpoonInstall.repos.ShiftIt = {
 
 spoon.SpoonInstall:andUse("ShiftIt", { repo = "ShiftIt" })
 
-hs.loadSpoon("ShiftIt")
 spoon.ShiftIt:bindHotkeys({
   left = { { 'ctrl', 'cmd' }, 'h' },
   down = { { 'ctrl', 'cmd' }, 'j' },
